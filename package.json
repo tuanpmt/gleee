@@ -1,0 +1,39 @@
+{
+  "name": "glee",
+  "version": "1.0.0",
+  "description": "🌳 A modern CLI tool for generating directory trees in Markdown and JSON formats. Perfect for documentation and GitHub Copilot context enhancement.",
+  "main": "src/index.js",
+  "bin": {
+    "glee": "./bin/glee.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node bin/glee.js"
+  },
+  "keywords": [
+    "cli",
+    "directory",
+    "tree",
+    "filesystem",
+    "markdown",
+    "json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuanpmt/glee.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tuanpmt/glee/issues"
+  },
+  "homepage": "https://github.com/tuanpmt/glee#readme",
+  "author": {
+    "name": "Tuan PM",
+    "email": "tuanpm@live.com",
+    "url": "https://github.com/tuanpmt"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ignore": "^5.3.0"
+  }
+}
