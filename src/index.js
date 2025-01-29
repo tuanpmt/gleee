@@ -6,19 +6,19 @@ import { generateJson } from './generators/json.js';
 
 const showHelp = () => {
   console.log(`
-Glee - Directory Structure Generator
+Gleee - Directory Structure Generator
 
-Usage: glee [directory] [output-file]
+Usage: gleee [directory] [output-file]
 
 Arguments:
   directory    Directory to analyze (default: current directory)
   output-file  Output file name (default: dir.md or dir.json)
 
 Examples:
-  glee                     # Generate tree for current directory
-  glee /path/to/dir       # Generate tree for specific directory
-  glee . output.json      # Generate JSON structure
-  glee . project.md       # Generate markdown tree structure
+  gleee                     # Generate tree for current directory
+  gleee /path/to/dir       # Generate tree for specific directory
+  gleee . output.json      # Generate JSON structure
+  gleee . project.md       # Generate markdown tree structure
 `);
 }
 

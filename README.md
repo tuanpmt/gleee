@@ -1,4 +1,4 @@
-# Glee - Directory Structure Generator
+# Gleee - Directory Structure Generator
 
 A simple CLI tool that generates directory structure in either ASCII tree format or JSON format.
 
@@ -12,7 +12,7 @@ A simple CLI tool that generates directory structure in either ASCII tree format
 - Respect .gitignore patterns
 - Automatically excludes .git directory
 
-## Why Glee?
+## Why Gleee?
 
 ### Enhanced GitHub Copilot Integration
 
@@ -34,41 +34,36 @@ Glee helps solve these issues by:
 ### Using npm
 
 ```sh
-npm install -g glee
+npm install -g gleee
 ```
 
 ### Using yarn
 
 ```sh
-yarn global add glee
+yarn global add gleee
 ```
 
 ## Usage
 
 ```sh
-glee [options] [directory] [output-file]
+gleee [options] [directory] [output-file]
 ```
-
-### Options
-
-- `directory`: Path to the directory to analyze (default: current directory)  
-- `output-file`: Name of output file (default: dir.md for markdown, dir.json for JSON)
 
 ### Examples
 
 1. Generate tree structure for current directory:
 ```sh
-glee .
+gleee .
 ```
 
 2. Generate JSON structure for a specific directory:
 ```sh
-glee /path/to/project output.json
+gleee /path/to/project output.json
 ```
 
 3. Save tree structure to custom file:
 ```sh
-glee . project-structure.md
+gleee . project-structure.md
 ```
 
 ### Sample Outputs
